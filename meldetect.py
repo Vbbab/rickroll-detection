@@ -53,7 +53,7 @@ def isRickRoll(path):
     So_DB = So_DB.flatten()
     Sc_DB = Sc_DB.flatten()
 
-    # Pad each with zeroes as necessary, but keep track of which array is which... (necessary for np.linalg.norm(orig - candidate))
+    # Cut them down to the same size... (necessary for np.linalg.norm(orig - candidate))
     if So_DB.shape != Sc_DB.shape:
         if Sc_DB.shape < So_DB.shape:
             So_DB = np.resize(So_DB, Sc_DB.shape)
