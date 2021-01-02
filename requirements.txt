@@ -1,10 +1,10 @@
-librosa==0.7.2
 requests==2.23.0
-colorama==0.4.3
-matplotlib==3.2.0
 numpy==1.18.1
+librosa==0.7.2
 moviepy==1.0.3
-youtube_dl==2020.12.31
+matplotlib==3.2.0
 termcolor==1.1.0
+youtube_dl==2020.12.31
+colorama==0.4.3
 beautifulsoup4==4.9.3
 python-dotenv==0.15.0
