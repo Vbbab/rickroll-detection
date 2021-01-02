@@ -1,5 +1,3 @@
-#  Copyright (c) 2021 by Frank Huang. You may edit this code and distribute the software freely.
-
 # This is a Rickroll blocker. I'm writing this because I'm sick of people giving me rickroll links. If I can't afford
 # to be trolled, I will let a machine listen to all videos on a page to see if they might be rickrolls. :D
 
