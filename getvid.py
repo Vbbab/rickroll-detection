@@ -1,5 +1,4 @@
-#  Copyright (c) 2020 by Frank Huang. You may edit this code and distribute the software freely.
-# Gets all videos on a webpage. If it's a youtube link then uses youtube-dl to download the main video.
+# Gets all videos on a webpage. If it's a youtube link then uses youtube-dl to download the main video. Turns the final result into an audio file for meldetect.py
 import youtube_dl
 import requests
 from bs4 import BeautifulSoup
