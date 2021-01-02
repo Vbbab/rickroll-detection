@@ -1,4 +1,3 @@
-#  Copyright (c) 2021 by Frank Huang. You may edit this code and distribute the software freely.
 from termcolor import colored
 import colorama
 import dotenv
