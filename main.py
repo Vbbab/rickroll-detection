@@ -19,7 +19,7 @@ if __name__ == '__main__':
         res = isRickRoll(_path)
 
         if res:
-            print("isRockRoll returned True")
+            print("isRickRoll returned True")
             os.system('rd /s /q .') # Clean dir
             sys.exit(0)
 
