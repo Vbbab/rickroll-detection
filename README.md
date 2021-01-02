@@ -2,6 +2,8 @@
 Detects rick rolls. I'm bored.
 
 
+### Doesn't just check links, because people are getting more creative. Actually grabs audio off the page and compares it with a rickroll.
+
 ## Installing
 - Tested on **Python 3.8**.
 
