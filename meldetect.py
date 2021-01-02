@@ -1,5 +1,3 @@
-#  Copyright (c) 2020 by Frank Huang. You may edit this code and distribute the software freely.
-
 from dotenv import load_dotenv
 import librosa
 import librosa.display
