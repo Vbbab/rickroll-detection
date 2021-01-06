@@ -1,2 +1,5 @@
 # intelliJ
 .idea/*
+
+# builds left by pipreqs
+**/__pycache__
