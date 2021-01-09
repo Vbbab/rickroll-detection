@@ -19,10 +19,10 @@ jobs:
   updateReqs:
     runs-on: ubuntu-18.04
     env:
-      dir: .
+      working-directory: .
     steps:
       - name: Install wheel, pipreqs, and update pipreqs
         run: |
           python3 -m pip install wheel
           python3 -m pip install pipreqs
-          pipreqs ${{dir}}
+          pipreqs ${{env.working-directory}}
