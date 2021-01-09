@@ -22,5 +22,5 @@ jobs:
     steps:
       - name: Pipreq grab & run pipreqs
         run: |
-          pip install pipreqs
+          python3 -m pip install pipreqs
           pipreqs ${{env.working-dir}}
