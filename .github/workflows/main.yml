@@ -23,6 +23,7 @@ jobs:
     steps:
       - name: Install wheel, pipreqs, and update pipreqs
         run: |
+          sudo apt-get install python3-setuptools
           python3 -m pip install wheel
           python3 -m pip install pipreqs
           pipreqs ${{env.working-directory}}
