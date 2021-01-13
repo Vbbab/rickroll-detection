@@ -1,5 +1,5 @@
 # Gets all videos on a webpage. If it's a youtube link then uses youtube-dl to download the main video. Turns the final result into an audio file for meldetect.py
-import yt_dl as youtube_dl
+import youtube_dl
 import requests
 from bs4 import BeautifulSoup
 import os
@@ -20,7 +20,8 @@ def getvid(url):
         write('getvid', 'Is YT', True)
         vidId = _u.path[1:]
         os.chdir('temp')
-        youtube_dl.main(['-x', vidId])
+        with youtube_dl.YoutubeDL() as ydl:
+            ydl.download([vidId])
         os.chdir('..')
     else:
         # Oh boy
